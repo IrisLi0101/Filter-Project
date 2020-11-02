@@ -1,0 +1,56 @@
+body{
+  background-color: BlanchedAlmond;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes example {
+  0%   {background-color:#FDE2E2;}
+  25%  {background-color:#FDEFD2;}
+  50%  {background-color:#F2FDE6;}
+  75%  {background-color:#E6F8FD;}
+  100% {background-color:#EBE6FD;}
+}
+
+#head{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 50px;
+}
+
+#picture{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 150px;
+}
+
+#Iris{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+}
+
+#Cvs1{
+  width: 500px;
+  height: 500px;
+  border: 10px solid black;
+}
+
+#fgCan,#bgCan{
+  width: 650px;
+  height: 450px;
+  border: 10px solid black;
+}
+
+.wsize{
+  font-size: 20px;
+}
+
+.button{
+  padding: 600px 550px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 100px;
+  margin: 10px 10px;
+}
